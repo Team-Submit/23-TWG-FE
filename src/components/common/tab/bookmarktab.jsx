@@ -1,6 +1,6 @@
-import { Tabbookmark_Clicked } from "../../../assets/images/icon";
-import { Tabbookmark_Hover } from "../../../assets/images/icon";
-import { Tabbookmark } from "../../../assets/images/icon";
+import { Tabbookmark_Clicked } from "../../../assets";
+import { Tabbookmark_Hover } from "../../../assets";
+import { Tabbookmark } from "../../../assets";
 import { color } from "../../../styles/theme";
 import styled from "styled-components";
 import { useState } from "react";

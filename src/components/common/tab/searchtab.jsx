@@ -1,6 +1,6 @@
-import { tabsearch } from "../../../assets/images/icon";
-import { tabsearch_Hover } from "../../../assets/images/icon";
-import { tabsearch_Clicked } from "../../../assets/images/icon";
+import { tabsearch } from "../../../assets";
+import { tabsearch_Hover } from "../../../assets";
+import { tabsearch_Clicked } from "../../../assets";
 import { color } from "../../../styles/theme";
 import styled from "styled-components";
 import { useState } from "react";

@@ -1,6 +1,6 @@
-import { Tabprofile_Hover } from "../../../assets/images/icon";
-import { Tabprofile_Clicked } from "../../../assets/images/icon";
-import { Tabprofile } from "../../../assets/images/icon";
+import { Tabprofile_Hover } from "../../../assets";
+import { Tabprofile_Clicked } from "../../../assets";
+import { Tabprofile } from "../../../assets";
 import { color } from "../../../styles/theme";
 import styled from "styled-components";
 import { useState } from "react";

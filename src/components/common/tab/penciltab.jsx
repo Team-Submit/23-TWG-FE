@@ -1,6 +1,6 @@
-import { Tabpencil_Hover } from "../../../assets/images/icon";
-import { Tabpencil_Clicked } from "../../../assets/images/icon";
-import { Tabpencil } from "../../../assets/images/icon";
+import { Tabpencil_Hover } from "../../../assets";
+import { Tabpencil_Clicked } from "../../../assets";
+import { Tabpencil } from "../../../assets";
 import { color } from "../../../styles/theme";
 import styled from "styled-components";
 import { useState } from "react";
