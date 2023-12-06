@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { color } from "../../../styles/theme";
 
-const Input1 = ({ error = false, width = "auto", height = "auto" }) => {
+const Input = ({ error = false, width = "auto", height = "auto" }) => {
   return (
     <_Input1
       error={error}
@@ -13,7 +13,7 @@ const Input1 = ({ error = false, width = "auto", height = "auto" }) => {
   );
 };
 
-export default Input1;
+export default Input;
 
 const _Input1 = styled.input`
   width: ${({ width }) => width};
