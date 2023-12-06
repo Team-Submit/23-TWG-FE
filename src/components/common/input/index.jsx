@@ -19,6 +19,7 @@ const _Input1 = styled.input`
   width: ${({ width }) => width};
   height: ${({ height }) => height};
   border: 1px solid ${({ error }) => (error ? "red" : "#D9D9D9")};
+  border-radius: 5px;
 
   ::placeholder {
     color: ${({ error }) => (error ? "red" : "#D9D9D9")};
