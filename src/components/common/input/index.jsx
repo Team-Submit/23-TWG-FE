@@ -1,7 +1,7 @@
 import styled from "styled-components";
 import { color } from "../../../styles/theme";
 
-const Input1 = ({ error = false, width = "auto", height = "auto" }) => {
+const Input = ({ error = false, width = "auto", height = "auto" }) => {
   return (
     <_Input1
       error={error}
@@ -13,12 +13,13 @@ const Input1 = ({ error = false, width = "auto", height = "auto" }) => {
   );
 };
 
-export default Input1;
+export default Input;
 
 const _Input1 = styled.input`
   width: ${({ width }) => width};
   height: ${({ height }) => height};
   border: 1px solid ${({ error }) => (error ? "red" : "#D9D9D9")};
+  border-radius: 5px;
 
   ::placeholder {
     color: ${({ error }) => (error ? "red" : "#D9D9D9")};
